@@ -1,0 +1,378 @@
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Grenze+Gotisch:wght@100..900&family=New+Rocker&display=swap" rel="stylesheet">
+<!-- INDEX CODE -->
+
+
+html{
+scroll-behavior: smooth;
+
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("images/Z.-ChessBackground2.png");
+  scroll-behavior: smooth;
+}
+
+#IndexBody {
+  background-color:rgb(49, 49, 49);
+  margin: 0px;
+  background-image: url("images/Z.-ChessBackground2.png");
+  
+}
+#bodyForHome {
+  max-width: 75%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  background-color: rgba(82, 148, 73, 0.9);
+  padding-right: 25px;
+  padding-left: 25px;
+  border-radius: 30px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: rgb(67, 119, 60);
+  display: grid;
+  overflow: hidden;
+}
+
+.Title{
+  background-color:rgba(33, 70, 28, 0.892);
+  border-radius: 30px;
+  border-width: 6px;
+  border-style: solid;
+  border-color:rgb(6, 48, 0);
+  margin-bottom: 8px;
+  margin-top: 40px;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+.u{
+  color:rgb(0, 255, 60);
+  background-color: rgb(0, 255, 60);
+}
+
+h1 {
+  text-decoration: none;
+  font-family: "Grenze Gotisch", serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin: 8px;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.Logotitle {
+  height:fit-content;
+}
+.mainpageTitles {
+  font-family: "Grenze Gotisch", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  text-decoration: underline;
+  color: black;
+  font-family: "Grenze Gotisch", serif;
+  font-size: 32px;
+}
+
+p {
+  color: black;
+  font-family: arial, consolas, Merriweather;
+  font-size: 20px;
+}
+ol{
+  color: black;
+  font-family: arial, consolas, Merriweather;
+  font-size: 20px;
+}
+.small{
+  color: black;
+  font-family: arial, consolas, Merriweather;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.events{
+  background-image: linear-gradient(to bottom right, #7df264, #24940d);
+border-style: solid;
+border-width: 3px;
+border-color: black;
+border-radius: 15px;
+margin-top: 12px;
+padding: 15px;
+}
+
+.eventsPast{
+  background-image: linear-gradient(to bottom right, #b0b3a3, #7f7a6e);
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 15px;
+  margin-top: 12px;
+  padding: 15px;
+}
+
+.events2{
+  background-image: linear-gradient(to bottom right, #fbec5f, gold);
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 15px;
+  margin-top: 12px;
+  padding: 15px;
+}
+
+main {
+  margin: 10px;
+  color: black;
+}
+.navbar {
+  max-width: 100%;
+  background-color: #0f2f00;
+  color: black;
+  padding: 15px 25px;
+  display: flex;
+  align-items: center;
+  background-image: url("Z.-ChessBoardBackground.png");
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
+
+.logo {
+  width: 75px;
+  height: 75px;
+  margin: 0px;
+  padding: 0px;
+  transition: all 0.7s ease;
+}
+
+.logo:hover {
+  width: 80px;
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
+  transition: all 0.7s ease;
+}
+
+a {
+  color: Blue;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+}
+
+.navbar ul {
+  list-style: none;
+  gap: 15px;
+  display: flex;
+  align: center;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.navbar ul li {
+  position: relative;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(0, 255, 60);
+  transition: all 0.9s ease;
+}
+
+.navbar ul li a:hover {
+  color: red;
+  transition: all 0.9s ease;
+}
+
+.navbar ul li a:active {
+  color: purple;
+  transition: all 0.9s ease:
+}
+button{
+  width: 120px;
+  border-radius: 60px;
+  height: 60px;
+  border-width: 4px;
+  border-style: outset;
+  background-color: gold;
+  border-color: #000;
+  font-family: merriweather;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 22px;
+  transition-property:all;
+  transition-duration: 0.8s ;
+  transition-timing-function: ease ;
+  filter: drop-shadow(0 0 10px gold); 
+}
+
+button:hover{ 
+  background-color: #000000;
+  border-color: gold;
+  color: gold;
+  filter: drop-shadow(0 0 10px #3cff6d); 
+}
+
+button:active{
+  background-color: #ffffff;
+  border-color: gold;
+  color:gold;
+  transition-property:all;
+  transition-duration: 0.01s ;
+  transition-timing-function: ease ;
+  filter: drop-shadow(0 0 10px #37d4ff); 
+}
+
+.Sign{
+  width: 300px;
+}
+
+.Sketch{
+
+  width: 500px;
+  margin: 10px;
+}
+
+span{
+
+background-color: gold;
+}
+
+table{
+  border: 5px solid black;
+  text-align: center;
+  align: center;
+}
+.month{
+  border: 5px solid black;
+  width: 646px;
+
+}
+
+@media (max-width: 600px){
+  .logo {
+    width: 37px;
+    height: 37px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .navbar{
+  
+  background-color: #0f2f00;
+  color: black;
+  padding: 7px 12px;
+  display: flex;
+  align-items: center;
+  background-image: url("Z.-ChessBoardBackground.png");
+  background-repeat: no-repeat;
+  background-size: 75px;
+  }
+  .navbar ul {
+  list-style: none;
+  gap: 7px;
+  display: flex;
+  align: center;
+  font-size: 7px;
+  font-weight: bolder;
+}
+
+.navbar ul li {
+  position: ;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-size: 9px;
+  color: rgb(0, 255, 60);
+}
+.Title{
+  background-color:rgba(33, 70, 28, 0.892);
+  border-radius: 30px;
+  border-width: 6px;
+  border-style: solid;
+  border-color:rgb(6, 48, 0);
+  margin-bottom: 8px;
+  margin-top: 40px;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+h1 {
+  text-decoration: none;
+  font-family: "Grenze Gotisch", serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin: 8px;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+h2 {
+  text-decoration: underline;
+  color: black;
+  font-family: "Grenze Gotisch", serif;
+  font-size: 12px;
+}
+
+p {
+  color: black;
+  font-family: arial, consolas, Merriweather;
+  font-size: 6px;
+}
+ol{
+  color: black;
+  font-family: arial, consolas, Merriweather;
+  font-size: 10px;
+}
+.small{
+  color: black;
+  font-family: arial, consolas, Merriweather;
+  font-size: 6px;
+  font-weight: 400;
+}
+
+.iframe{
+max-width: 100%;
+height: auto;
+}
+
+img{
+width: 200px
+height: auto;
+}
+}
+
+<!-- About us Code --> 
+
+<!-- Joion us code --> 
+
+<!-- Testimonie code -->
+
+.usernamesForTestimonies {
+        
+  font-family: .new-rocker-regular;
+  font-weight: 400;
+  font-style: normal;
+
+
+      }
+
+      .new-rocker-regular {
+  font-family: "New Rocker", system-ui;
+  
+}
+  
+
+<!-- Future events --> 
+
+<!-- Blogs code -->

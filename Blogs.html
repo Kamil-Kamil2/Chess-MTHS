@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Chess Club MTHS</title>
+    <link rel="stylesheet" href="styles.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Grenze+Gotisch:wght@100..900&family=New+Rocker&display=swap" rel="stylesheet">
+
+    <style> 
+
+.whiteHorses {
+  float: left;
+width: 10%; 
+height: auto;
+margin-left: 1.25%; 
+
+}
+
+.blackHorses {
+  float: right;
+width: 10%; 
+height: auto;
+margin-right: 1.25%; 
+
+}
+
+#BackgroundDecoration1 {
+width: 100%;
+margin-top: 100%;
+
+
+}
+
+#BackgroundDecoration2 {
+width: 100%;
+
+margin-top: 100%;
+}
+
+#BackgroundDecoration3 {
+
+width: 100%;
+margin-top: 150%;
+
+}
+#BackgroundDecoration4 {
+width: 100%;
+
+margin-top: 150%;
+}
+
+#BackgroundDecoration5 {
+
+width: 100%;
+margin-top: 200%;
+
+}
+#BackgroundDecoration6 {
+width: 100%;
+
+margin-top: 200%;
+}
+
+#BackgroundDecoration7 {
+
+width: 100%;
+margin-top: 250%;
+
+}
+#BackgroundDecoration8 {
+width: 100%;
+
+margin-top: 250%;
+}
+
+#BackgroundDecoration9 {
+
+width: 100%;
+margin-top: 275%;
+
+}
+#BackgroundDecoration10 {
+width: 100%;
+
+margin-top: 275%;
+}
+
+#BackgroundDecoration11 {
+
+width: 100%;
+margin-top: 300%;
+
+}
+#BackgroundDecoration12 {
+width: 100%;
+
+margin-top: 300%;
+}
+
+#BackgroundDecoration13 {
+
+width: 100%;
+margin-top: 325%;
+
+}
+#BackgroundDecoration14 {
+width: 100%;
+
+margin-top: 325%;
+}
+
+#BackgroundDecoration15 {
+
+width: 100%;
+margin-top: 350%;
+
+}
+#BackgroundDecoration16 {
+width: 100%;
+
+margin-top: 350%;
+
+
+}
+
+#BackgroundDecoration17 {
+
+width: 100%;
+margin-top: 362.5%;
+
+}
+#BackgroundDecoration18 {
+width: 100%;
+
+margin-top: 362.5%;
+}
+
+#BackgroundDecoration19 {
+
+width: 100%;
+margin-top: 375%;
+
+}
+#BackgroundDecoration20 {
+width: 100%;
+
+margin-top: 375%;
+}
+
+.introductionBlogs {
+background-image: linear-gradient(to bottom right, #ffbd3845, #ffce6c47);
+      border-radius: 55px;
+      border: 2px rgb(33, 6, 6) solid;
+      padding: 15px;
+     margin-top: 3%;
+     }
+.taimanovSicilian {
+  background-image: linear-gradient(to bottom right, #d6d6d6d0, #a6b3ff8a);
+  border-radius: 15px;
+  border: 2px black solid;
+}
+
+.blogHeaders {
+font-size: 50px;
+text-align: center;
+text-decoration: none;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dragonSicilian{
+  background-image: linear-gradient(to bottom right, #d6d6d6d0, #a6b3ff8a);
+  border-radius: 15px;
+  border: 2px black solid;
+}
+
+.ban  {
+  background-image: linear-gradient(to bottom right, #d6d6d6d0, #a6b3ff8a);
+  border-radius: 15px;
+  border: 2px black solid;
+}
+
+.clickbait {
+  background-image: linear-gradient(to bottom right, #d6d6d6d0, #a6b3ff8a);
+  border-radius: 15px;
+  border: 2px black solid;
+}
+
+.physics  {
+  background-image: linear-gradient(to bottom right, #d6d6d6d0, #a6b3ff8a);
+  border-radius: 15px;
+  border: 2px black solid;
+}
+
+.GothamChess {
+  background-image: linear-gradient(to bottom right, #d6d6d6d0, #a6b3ff8a);
+  border-radius: 15px;
+  border: 2px black solid;
+  padding: 10px;
+  
+}
+
+.winners {
+  background-image: linear-gradient(to bottom right, #d6d6d6d0, #a6b3ff8a);
+  border-radius: 15px;
+  border: 2px black solid;
+  padding-bottom: 5%;
+}
+
+.Paul {
+  background-image: linear-gradient(to bottom right, #d6d6d6d0, #a6b3ff8a);
+  border-radius: 15px;
+  border: 2px black solid;
+}
+
+
+.ChessGame {
+  margin-right: auto;
+  margin-left: auto;
+  float: left;
+  scale: 75%;
+  
+}
+
+.ChessCaption1 {
+  margin-right: 20px;
+  margin-left: 30%;
+  font-size: 20px;
+text-align: center;
+font-family: "Ancizar Sans", sans-serif;
+
+}
+
+
+.ChessCaption2 {
+  margin-right: 20px;
+  margin-left: 40%;
+  font-size: 20px;
+text-align: center;
+font-family: "Ancizar Sans", sans-serif;
+
+}
+
+
+.ChessCaption3 {
+  margin-right: 20px;
+  margin-left: 55%;
+  font-size: 20px;
+text-align: center;
+font-family: "Ancizar Sans", sans-serif;
+
+}
+
+.ChessCaption4 {
+  margin-right: 20px;
+  margin-left: 55%;
+  font-size: 20px;
+text-align: center;
+font-family: "Ancizar Sans", sans-serif;
+}
+
+.ChessCaption5 {
+  margin-right: 20px;
+  margin-left: 45%;
+  font-size: 20px;
+text-align: center;
+font-family: "Ancizar Sans", sans-serif;
+}
+
+.ChessCaption6 {
+  margin-right: 20px;
+  margin-left: 45%;
+  font-size: 20px;
+text-align: center;
+font-family: "Ancizar Sans", sans-serif;
+
+}
+
+.ChessCaption7 {
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+text-align: center;
+font-family: "Ancizar Sans", sans-serif;
+}
+
+.ChessCaption8 {
+  margin-right: 20px;
+  margin-left: 45%;
+  font-size: 20px;
+text-align: center;
+font-family: "Ancizar Sans", sans-serif;
+}
+
+
+
+.TimeHeading {
+text-align: center;
+font-size: 50px;
+font-family: "Grenze Gotisch", serif;
+  
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+
+.seperator {
+
+
+            height: 30%;
+            width: 100%;
+            background-image: url("images/CheckersPattern.png");
+            
+    }
+
+    .groupPicture
+    {
+    float: left; 
+    margin-left: 5%;
+    margin-top: 5%;
+
+
+    }
+
+    .minionPicture {
+
+width: 25%; 
+height: auto;
+float: left;
+margin-left: 5%;
+margin-top: 3%;
+padding-bottom: 5%;
+    }
+
+    .hikaruPicture {
+
+      float: left;
+margin-left: 5%;
+width: 35%; 
+height: auto;
+margin-top: 3%
+
+
+    }
+
+    .fluidPicture {
+      float: left;
+margin-left: 5%;
+width: 35%; 
+height: auto;
+    }
+
+    .presidentsPicture
+    {
+      float: left;
+margin-left: 5%;
+width: 45%; 
+height: auto;
+    }
+
+    .creatorBlog {
+margin-left: 5%;
+    }
+
+    .introductionBlog {
+    background-image: linear-gradient(to bottom right, #ffbd3845, #ffce6c47);
+      border-radius: 55px;
+      border: 2px rgb(33, 6, 6) solid;
+      padding: 15px;
+      }
+    </style>
+  </head>
+
+  <!-- Programmers:
+ Jason Pan, Aranvir Thind, and Kamil Kamil
+      
+  Kamil: Hey team, Please feel free
+  to change or delete anything here.
+  I'm just drafting. -->
+
+  <!-- CODE START HERE -->
+  <body id="IndexBody">
+    <nav class="navbar">
+      <div class="bar-logo">
+        <a href="index.html">
+          <image src="images/Pawn3.png" class="logo" alt="Pawn"></image>
+        </a>
+      </div>
+      <div class="links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="AboutUs.html">About Us</a></li>
+          <li><a href="JoinUs.html">Join us</a></li>
+          <li><a href="Testimonies.html">Testimonies & Shoutouts</a></li>
+          <li><a href="FutureEvents.html">Future Events</a></li>
+          
+          <u><li><a href="">Blog</a></li></u>
+          <li><a href="Contacts.html">Contacts</a></li>
+          <li><a href="InfoWebsites.html">Website Info</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+
+      <div class="whiteHorses">
+
+        <img id="BackgroundDecoration1" src="images/ChessKnight2.png"> 
+         <img id="BackgroundDecoration3" src="images/ChessKnight2.png"> 
+          <img id="BackgroundDecoration5" src="images/ChessKnight2.png"> 
+           <img id="BackgroundDecoration7" src="images/ChessKnight2.png"> 
+            <img id="BackgroundDecoration9" src="images/ChessKnight2.png"> 
+              <img id="BackgroundDecoration11" src="images/ChessKnight2.png"> 
+                <img id="BackgroundDecoration13" src="images/ChessKnight2.png"> 
+                  <img id="BackgroundDecoration15" src="images/ChessKnight2.png"> 
+                   <img id="BackgroundDecoration17" src="images/ChessKnight2.png">
+                   <img id="BackgroundDecoration18" src="images/ChessKnight2.png">
+
+         </div>
+
+         <div class="blackHorses"> 
+      
+       <img id="BackgroundDecoration2" src="images/BlackKnight1.png"> 
+      
+       <img id="BackgroundDecoration4" src="images/BlackKnight1.png"> 
+       <img id="BackgroundDecoration6" src="images/BlackKnight1.png"> 
+       <img id="BackgroundDecoration8" src="images/BlackKnight1.png"> 
+       <img id="BackgroundDecoration10" src="images/BlackKnight1.png"> 
+         <img id="BackgroundDecoration12" src="images/BlackKnight1.png"> 
+           <img id="BackgroundDecoration14" src="images/BlackKnight1.png"> 
+             <img id="BackgroundDecoration16" src="images/BlackKnight1.png"> 
+             <img id="BackgroundDecoration18" src="images/BlackKnight1.png">
+             <img id="BackgroundDecoration20" src="images/BlackKnight1.png">
+
+       </div> 
+
+
+      <div class="Title"><h1>Chess Club MTHS<br>Blogs<h1></div>
+        <div id="bodyForHome">
+
+<div class="introductionBlogs">
+          <h1> Community Posts </h1>
+      <p> This section is dedicated to the overarching Chess community, not limited to Monterey Trial Chess Club. If you would like to make a post request click the link below.<a href="https://docs.google.com/forms/d/e/1FAIpQLSczsQ2HF_ErwHok-Kvd0xIbqM8Cml-UDo0LdHjHYgFXiayb0A/viewform?pli=1">+Post Request</a></p>
+</div>
+    <!-- ---------------------->
+
+        <p class="TimeHeading"> This Weeks News </p> 
+
+      <!-- just look for random chess articles or openings -->
+
+      <div class="taimanovSicilian"> 
+      <p class="blogHeaders"> <a href="https://www.chess.com/openings/Sicilian-Defense-Taimanov-Variation"> New opening is on fire right now, the Taimanov Sicilian 🔥🔥 </a> </p> 
+
+      <p class="creatorBlog"> <strong> Creator of Blog: IlikeCheese123 (2700 Rating) </strong> </p> 
+
+         <iframe class="ChessGame" id="13284244" allowtransparency="true" frameborder="0" style="width:65%;border:none;" 
+         src="https://www.chess.com/emboard?id=13284244"></iframe><script nonce="chesscom-diagram">
+          window.addEventListener("message",e=>{e['data']&&"13284244"===e['data']['id']&&document.getElementById(`${e['data']['id']}`)&&
+         (document.getElementById(`${e['data']['id']}`).style.height=`${e['data']['frameHeight']+37}px`)});</script>
+
+            <p class="ChessCaption1"> The Taimanov sicilian is named after the Russian legend Mark Taimanov. This is now a very 
+                popular opening after the Monterey Trial High School chess club have actively been promoting it
+                and is now played across the globe. This spectacular opening is one of the main branches of the 
+              sicilian defense. Click on the title to learn more! 
+              <br> 
+              <br>
+               Date posted: May 19</p>
+            
+
+         </div>
+
+        <br>
+<!-- ---------------------->
+
+
+         <div class="dragonSicilian"> 
+          <p class="blogHeaders"> <a href="https://www.chess.com/openings/Sicilian-Defense-Open-Dragon-Variation"> Become a Dragon Slayer! (In Chess) </a> </p> 
+          <p class="creatorBlog"> <strong> Creator of Blog: FrenchDefensePlayer (2300 Rating) </strong></p>
+ 
+          <iframe class="ChessGame" id="13284292" allowtransparency="true" frameborder="0" style="width:65%;border:none;" 
+            src="https://www.chess.com/emboard?id=13284292"></iframe><script nonce="chesscom-diagram">
+            window.addEventListener("message",e=>{e['data']&&"13284292"===e['data']['id']&&document.getElementById(`${e['data']['id']}`)&&
+            (document.getElementById(`${e['data']['id']}`).style.height=`${e['data']['frameHeight']+37}px`)});</script>
+
+            <p class="ChessCaption2"> The Dragon Sicilian is a highly studied sicilian variation and is played from almost all elo
+              ranges. Depending on how much theory that the opponent memorizes from the aggressive opening,
+              will determine the fate of the game. A good dragon sicilian opening will have both sides being
+              aggressive. The Dragon sicilian derives its name from the dragon bishop for black on b7. This 
+              "Dragon" is a very important part of the attack. Many people are now playing this because the 
+              name has so much AURAAAA AHHHHHHH. Click on the title to learn more!
+
+            <br> 
+            <br>
+             Date posted: May 18 </p>
+            </div>
+            <br>
+
+      <!-- make it look like a newspaper format with picture and articles 
+and clickable links to irl articles-->
+
+      <div class="GothamChess"> 
+        <p class="blogHeaders"> <a href="https://www.youtube.com/@GothamChess"> GothamChess is considering joining MTHS Chess Club! </a> </p>
+
+        <p class="creatorBlog"> <strong> Creator: Iccrem (WEBSITE OWNER) (2950 Rating Grandmaster) </strong></p>
+      <img class="groupPicture" src="images/groupPhotoshop1.png"> 
+
+      <p class="ChessCaption3"> Yes we are 100% totally not joking and you heard it right, internet and youtube
+        star GothamChess, formally known as international master Levy Rozman, has considered joining our school club. He is perhaps 
+        famous for his hilarious and very educational chess commentary along with his hit banger guess the elo series
+        and openings playlists. We are looking forward to having you on the team Mr. Rozman. Click on the title to learn 
+        more!
+        
+        <br> 
+        <br>
+        Date posted: May 13 </p>
+              
+
+      </div> 
+        
+
+<!-- ---------------------->
+      
+<p class="TimeHeading"> Last Week </p> 
+
+<!-- ---------------------->
+<div class="ban">
+  <p class="blogHeaders"> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> DONT LISTEN TO IHATECHESS </a> </p> 
+  <p class="creatorBlog"> <strong> Creator: PiePower2 (1250 Rating) </strong></p>
+  <img class="minionPicture" src="images/minionMeme.png"> 
+  <p class="ChessCaption4"> They are trolling, don't play the bongcloud and lose. Please
+  upvote this blog post and raise awareness to ban that user. You Know what, I say President Jason Should filter the blog requests so that these GOOF messages don't appear.
+  <br> 
+  <br>
+Date posted: April 30 </p>
+
+
+  </div> 
+
+  <br>
+
+<!-- ---------------------->
+
+
+<div class="clickbait">
+  <p class="blogHeaders"> <a href="https://www.chess.com/openings/Kings-Pawn-Opening-The-Bongcloud"> How to improve in chess (NOT CLICKBAIT) </a> </p> 
+  <p class="creatorBlog"> <strong>Creator of Blog: IHateChess456 (329 Rating)</strong> </p>
+  <img class="hikaruPicture" src="images/gmHikaru.png"> 
+  <p class="ChessCaption5"> okay guys fsod oso i have a cray thoery to imrpove in chess
+  so what if the thoery is that we play the bongcloud defense mainline which would
+  thoeritically be able to throw the enemy off guard and help us score a easy win
+  because becaue because uhhhh becauye they will have no idea what to do after we 
+ drag the king into the game and hinder our own development which will leave them
+sitting there confused for 5 minutes and then we can obiosuly then win by time!! 
+foloow my strategy everyone i am a very trustworhy indiviual lolol 
+<br> 
+<br>
+Date posted: April 29 </p>
+
+  </div>
+<br>
+<!-- ---------------------->
+<div class="physics">
+  <p class="blogHeaders"> <a href="https://en.wikipedia.org/wiki/Fluid_mechanics"> On the basis of Fluid dynamics and Statics. </a> </p> 
+  <p class="creatorBlog"> <strong> Creator of Blog: Evangelista Torricelli (2400 Rating) </strong></p>
+  <img class="fluidPicture" src="images/fluidDynamics.jpg"> 
+  <p class="ChessCaption6"> Warning Unrelated Post please don't take this down. First, there needs 
+    to be a clear and rigorous definition for fluids, so a fluid is defined here as any phase 
+    of matter that has the ability to deform due to applied pressure. With that being said, the common
+    idea is that a "fluid" is just a liquid state of matter, but that is infact wrong because gases also
+    fall under the conditions that allows it to be considered a fluid. So the field of fluid statics 
+    is the focus of studying particles that are not in motion and consists of many in real life
+    application such as explaining the phenomena regarding how deeper ocean levels tends to have a higher
+    pressure level. Fluid statics is also an important component to consider when it comes to building
+    dams strong enough to hold all of the mainly stationary water. Fluid dynamics tends to become outshined
+    then their fluid statics counterpart in that there are much more applications to it. Applications such as the 
+    Bernoulli's principle, Brownian motion, etc which allows us to predict the motion and pressure
+    of the fluid. Fluid dynamics also have a play in aerodynamics applications in that Reynold numbers must
+    be considered in designing of the airfoil.  
+    <br> 
+    <br>
+ Date posted: April 29 </p>
+
+  </div>
+  <br>
+
+<!-- --------------->
+
+<p class="TimeHeading"> Old News & Historical Blogs </p>
+
+<!-- ------------------------------->
+
+<div class="Paul">
+<p class="PaulMorphyBlogTitle"> <a href="https://www.chess.com/terms/opera-game-chess"> IMPRESSIVE CHECKMATE Y'ALL CHECK THIS OUT </a> </p> 
+
+<p class="creatorBlog"> <strong>Creator of Blog: Paul Morphy (President) </strong></p>
+
+<iframe class="ChessGame" id="13286366" allowtransparency="true" frameborder="0" style="width:75%;border:none;" src="https://www.chess.com/emboard?id=13286366">
+</iframe><script nonce="chesscom-diagram">window.addEventListener("message",e=>{e['data']&&"13286366"===e['data']['id']&&
+document.getElementById(`${e['data']['id']}`)&&(document.getElementById(`${e['data']['id']}`).style.height=`${e['data']['frameHeight']+37}px`)});</script>
+  
+  <p class="ChessCaption7"> Salutations and pleasure greeting all of my newcomers in Monterey Trial Chess club, 
+     emerse thyself in joy deriving from the game of strategic battles from me and my opponent amidst an opera!  
+     <br> 
+     <br>
+ Date posted: June 23, 1857 </p>
+
+  </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+  <div class="winners">
+    <p class="blogHeaders"> <a href="images/OriginalPresidents.png"> WE WON NATIONALS LESSSS GOO W'S IN THE CHAT </a> </p> 
+    <p class="creatorBlog"> <strong>Creator of Blog: Arjun Erigaisi (Publicity)</strong> </p>
+    <img class="presidentsPicture" src="images/OriginalPresidents.png"> 
+    <p class="ChessCaption8"> I know we are living in the 1870s and twitch have not been 
+      invented but please drop your W's in the chat    
+      <br> 
+      <br>
+   Date posted: Feburary 29, 1875  </p>
+
+    </div>
+    <br>
+<br>
+      <!-- just make up a story at this point LOL -->
+    </main>
+  
+ 
+
+  </body>
+</html>
